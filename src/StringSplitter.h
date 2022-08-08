@@ -11,7 +11,7 @@
 
 class StringSplitter{
 	private:
-		static const unsigned int MAX = 5;
+		static const unsigned int MAX = 100;
 		String op[MAX];
 		int count = 0;
 		int countOccurencesOfChar(String s, char c);
